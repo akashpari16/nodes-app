@@ -5,7 +5,7 @@ pipeline {
         stage ("code clone from git"){
             steps {
                 echo "Cloning the code"
-                git url:"https://github.com/hgprajapatiengg/nodes-app.git", branch:"master"
+                git url:"https://github.com/akashpari16/nodes-app.git", branch:"master"
             }
             
         }
